@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\photo1.jpg" />
+    <None Remove="Icons\photo2.jpg" />
+    <None Remove="Images\fastfood.jpg" />
+    <None Remove="Images\fish.jpg" />
+    <None Remove="Images\FoodImages\kabob.jpg" />
+    <None Remove="Images\FoodImages\napaleon.jpg" />
+    <None Remove="Images\FoodImages\norin.jpg" />
+    <None Remove="Images\FoodImages\pahlava.jpg" />
+    <None Remove="Images\FoodImages\palov.jpg" />
+    <None Remove="Images\kabob.jpg" />
+    <None Remove="Images\loginpagephoto.jpg" />
+    <None Remove="Images\osh.jpg" />
+    <None Remove="Images\wood1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.0-ci298" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineFoodOrdering.Service\OnlineFoodOrdering.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\photo1.jpg" />
+    <Resource Include="Icons\photo2.jpg" />
+    <Resource Include="Images\fastfood.jpg" />
+    <Resource Include="Images\fish.jpg" />
+    <Resource Include="Images\FoodImages\kabob.jpg" />
+    <Resource Include="Images\FoodImages\napaleon.jpg" />
+    <Resource Include="Images\FoodImages\norin.jpg" />
+    <Resource Include="Images\FoodImages\pahlava.jpg" />
+    <Resource Include="Images\FoodImages\palov.jpg" />
+    <Resource Include="Images\kabob.jpg" />
+    <Resource Include="Images\loginpagephoto.jpg" />
+    <Resource Include="Images\osh.jpg" />
+    <Resource Include="Images\wood1.jpg" />
+  </ItemGroup>
+
+</Project>
